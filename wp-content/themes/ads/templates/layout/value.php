@@ -1,50 +1,49 @@
 <section id="values" class="values">
     <div class="container" data-aos="fade-up">
-        <header class="section-header">
-            <h2></h2>
-            <p>Vì sao nên chọn chúng tôi</p>
+        <header class="section-header title-heading">
+            <h2>Vì sao nên chọn chúng tôi?</h2>
         </header>
         <div class="row">
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-11.png') ?>" class="img-fluid" alt="">
-                    <h3>100% Giao diện Mobile</h3>
-                    <p>Giao diện web và quản trị được tối ưu phù hợp các thiết bị di động và máy tính bảng cũng như kích thước màn hình máy tính khác nhau.</p>
+                    <h3>Tiết kiệm chi phí</h3>
+                    <p>Chi phí thiết kế phù hợp với từng khách hàng Kho giao diện website phong phú, đa dạng, được phân loại theo từng ngành nghề, đáp ứng từng nhu cầu khác nhau của khách hàng.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-2.png') ?>" class="img-fluid" alt="">
-                    <h3>Tích hợp SEO Onpage</h3>
-                    <p>Tích hợp SEO Onpage cho website tối ưu hóa, tăng cơ hội hiển thị trên Google. Đội ngũ SEO của chúng tôi sẽ tư vấn giải pháp phù hợp cho bạn.</p>
+                    <h3>Thiết kế chuyên nghiệp</h3>
+                    <p>Phong cách thiết kế Website được cập nhật theo xu hướng mới nhất giúp tạo sự mới mẻ và tăng chuyển đổi bán hàng.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-3.png') ?>" class="img-fluid" alt="">
-                    <h3>Hệ thống Bảo mật</h3>
-                    <p>Tối ưu & thiết lập bảo mật tối đa cho WprdPress để tránh bị tấn công, load nhanh và chiếm ít tài nguyên máy tính. Đây là thành tựu của chúng tôi.</p>
+                    <h3>Tăng tốc độ chuyển đổi</h3>
+                    <p>Các Website đều được tích hợp các mini tool giúp tăng chuyển đổi lên đến 80% như vòng quay may mắn, đơn hàng ảo</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-11.png') ?>" class="img-fluid" alt="">
-                    <h3>Nền tảng WordPress</h3>
-                    <p>WordPress là một CMS miễn phí phổ biến nhất với rất nhiều website lớn đang sử dụng trên thế giới, và ngay tại Việt Nam cũng không ngoại lệ.</p>
+                    <h3>Kho giao diện phong phú</h3>
+                    <p>Kho giao diện website phong phú, đa dạng, được phân loại theo từng ngành nghề, đáp ứng từng nhu cầu khác nhau của khách hàng.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-2.png') ?>" class="img-fluid" alt="">
-                    <h3>Tối ưu tốc độ tải trang</h3>
-                    <p>Thời gian tải trang nhanh hơn, giúp tăng doanh thu và xếp hạng tìm kiếm tốt hơn. Tối ưu hóa tốc độ sẽ cải thiện tải trang trung bình khoảng 70%</p>
+                    <h3>Tối ưu BOT SEO GOOGLE</h3>
+                    <p>Tốc độ tải trang và tối ưu SEO cho Website luôn được đội ngũ ưu tiên hàng đầu để mang lại nhiều chuyển đổi hơn cho KH.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <img src="<?php echo ASSETS('/assets/img/values-3.png') ?>" class="img-fluid" alt="">
-                    <h3>Dành cho Developer</h3>
-                    <p>Được lập trình với cấu trúc linh hoạt và mở rộng, nền tảng có cấu trúc và dễ làm theo. Bạn sẽ có hứng thú khi sáng tạo cùng chúng tôi.</p>
+                    <h3>Hỗ trợ 24/7</h3>
+                    <p>Khi bạn gặp khó khăn đừng ngần ngại hãy liên hệ với đội ngũ Haweb.vn ngay để được hỗ trợ trong tích tắc.</p>
                 </div>
             </div>
         </div>

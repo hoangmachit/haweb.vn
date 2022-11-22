@@ -5,7 +5,7 @@
                 <div class="content">
                     <h3>Về chúng tôi</h3>
                     <h2>Thiết kế website Hoàng Anh Ads</h2>
-                    <p>Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu "Nội dung, nội dung, nội dung" là nó khiến văn bản giống thật hơn</p>
+                    <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế website. Haweb.vn luôn tự hào là đối tác tin cậy của quý khách hàng. Chúng tôi luôn mang tới những sản phẩm tốt nhất, chuẩn SEO nhât, giàu lợi nhuận nhất cho khách hàng.</p>
                     <div class="text-center text-lg-start">
                         <a href="about.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Đọc thêm</span>

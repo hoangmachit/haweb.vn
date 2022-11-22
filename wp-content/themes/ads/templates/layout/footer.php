@@ -30,17 +30,19 @@
                         <a target="_blank" href="https://instagram.com/" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
                     </div>
                 </div>
-                <div style="display:block;" id="foter-hide" class="col-lg-2 col-6 footer-links">
-                    <h4></h4>
+                <div id="foter-hide" class="col-lg-2 col-ms-12 footer-links">
+                    <h4>Thiết kế website</h4>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website bán hàng</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website bất động sản</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website thời trang</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website xây dựng</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website giới thiệu</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website doanh nghiệp</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="">Thiết kế website giá rẻ</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-6 footer-links">
+                <div class="col-lg-2 col-ms-12 footer-links">
                     <h4>Danh mục</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="">Trang chủ</a></li>

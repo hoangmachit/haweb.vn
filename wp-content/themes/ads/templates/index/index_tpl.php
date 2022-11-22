@@ -5,6 +5,8 @@
 <?php include ADS_LAYOUT . "count.php" ?>
 <!-- ======= Features ======= -->
 <?php include ADS_LAYOUT . "features.php" ?>
+<!-- ======= Price ======= -->
+<?php include ADS_LAYOUT . "price.php" ?>
 <!-- ======= Interface store ======= -->
 <?php include ADS_LAYOUT . "interface_store.php" ?>
 <!-- ======= Blogs ======= -->

@@ -16,14 +16,6 @@
 <script src="<?php echo ASSETS('/assets/vendor/glightbox/js/glightbox.min.js') ?>"></script>
 <script src="<?php echo ASSETS('/assets/js/main.js') ?>"></script>
 <script type="text/javascript">
-    var x = document.getElementById("foter-hide");
-    myFunction(x)
-
-    function myFunction(x) {
-        if (window.matchMedia("(max-width: 700px)").matches) {
-            x.style.display = 'none';
-        }
-    };
     /* QA */
     ADS.Q_A = function() {
         $('.accordion-button').on('click', function(e) {

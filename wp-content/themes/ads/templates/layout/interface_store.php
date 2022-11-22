@@ -1,8 +1,8 @@
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">
-        <header class="section-header">
-            <h2>Tổng hợp 1001 giao diện tốt nhất của haweb.vn</h2>
-            <p>Kho giao diện</p>
+        <header class="section-header title-heading">
+            <h2>Kho giao diện đa dạng</h2>
+            <p>Tổng hợp 1001 giao diện được thiết kế bởi Haweb.vn chúng tôi gửi tới quý khách hàng.</p>
         </header>
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
@@ -112,6 +112,19 @@
                     <div class="portfolio-info">
                         <h4>Contoh 2</h4>
                         <p>Nội thất Quốc Thiệu</p>
+                        <div class="portfolio-links">
+                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="detail_galleryd708.html?id=3" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landing_page">
+                <div class="portfolio-wrap">
+                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Contoh 2</h4>
+                        <p>Cục Cục Store</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="detail_galleryd708.html?id=3" title="Lihat Detail"><i class="bi bi-link"></i></a>
