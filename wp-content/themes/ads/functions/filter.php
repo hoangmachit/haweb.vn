@@ -4,6 +4,7 @@ if (!function_exists('remove_post_type_in_sitemap_xml')) {
     {
         unset($post_type['question']); // remove sitemap with post_type not working
         unset($post_type['why']); // remove sitemap with post_type not working
+        unset($post_type['working']); // remove sitemap with post_type not working
         return $post_type;
     }
     add_filter('wp_sitemaps_post_types', 'remove_post_type_in_sitemap_xml');

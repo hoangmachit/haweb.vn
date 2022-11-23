@@ -131,3 +131,29 @@ function getQuestions()
     <?php }
     resetQuery();
 }
+
+// get Working
+function getWorking()
+{
+    $args = array(
+        'posts_per_page' => 8,
+        'post_type' => 'working',
+        'post_status' => 'publish'
+    );
+    $query = new WP_Query($args);
+    if ($query->have_posts()) { ?>
+
+        <?php
+        $aos_delay = 0;
+        while ($query->have_posts()) : $query->the_post(); ?>
+            <?php $aos_delay++; ?>
+            <article class="col-md-6" data-aos="zoom-out" data-aos-delay="<?php echo $aos_delay ?>00">
+                <div class="feature-box d-flex align-items-center" title="<?php the_title() ?>">
+                    <i class="bi bi-check"></i>
+                    <h3><?php the_title() ?></h3>
+                </div>
+            </article>
+        <?php endwhile; ?>
+    <?php }
+    resetQuery();
+}

@@ -1,1 +1,1 @@
-<?php include_once "comming-soon.php";
+<?php include_once ADS_TEMPLATE . "pages/tiktok-ads.php";

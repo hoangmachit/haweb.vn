@@ -32,6 +32,9 @@ if (CUSTOM_POST_USE) {
 				'post_type' => 'infomations',
 				'label'     => 'Infomations',
 				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'taxonomies' => array(
+					array('taxonomy' => 'infomations_tax', 'label' => 'Categories')
+				),
 			),
 
 			array(
@@ -50,6 +53,12 @@ if (CUSTOM_POST_USE) {
 				'post_type' => 'question',
 				'label'     => 'Questions',
 				'args'      => array('supports' => array('title', 'revisions', 'excerpt')),
+			),
+
+			array(
+				'post_type' => 'working',
+				'label'     => 'Working',
+				'args'      => array('supports' => array('title', 'revisions')),
 			),
 
 			////// Example
