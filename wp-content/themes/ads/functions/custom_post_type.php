@@ -20,25 +20,46 @@ if (CUSTOM_POST_USE) {
 			//////
 
 			array(
-				'post_type' => 'news',
-				'label'     => 'News',
-				'args'      => array('supports' => array('title', 'revisions')),
+				'post_type' => 'advertisement',
+				'label'     => 'Advertisement',
+				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'taxonomies' => array(
+					array('taxonomy' => 'advertisement_tax', 'label' => 'Categories')
+				),
 			),
 
 			array(
-				'post_type' => 'article',
-				'label'     => 'Article',
-				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail')),
+				'post_type' => 'infomations',
+				'label'     => 'Infomations',
+				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
 			),
 
-			//////
+			array(
+				'post_type' => 'policy',
+				'label'     => 'Policy',
+				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+			),
+
+			array(
+				'post_type' => 'why',
+				'label'     => 'Why choice',
+				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+			),
+
+			array(
+				'post_type' => 'question',
+				'label'     => 'Questions',
+				'args'      => array('supports' => array('title', 'revisions', 'excerpt')),
+			),
+
+			////// Example
 
 			//			array(
-			//				'post_type'  => 'einou',
-			//				'label'      => '営農情報',
-			//				'args'       => array(),
+			//				'post_type'  => 'example',
+			//				'label'      => 'Example',
+			//				'args'       => array('title', 'editor', 'revisions', 'thumbnail'),
 			//				'taxonomies' => array(
-			//					array( 'taxonomy' => 'einou_tax', 'label' => 'カテゴリー' )
+			//					array( 'taxonomy' => 'example_tax', 'label' => 'Categories' )
 			//				),
 			//			),
 
@@ -110,22 +131,21 @@ if (CUSTOM_POST_USE) {
 					if (!empty($tax['label'])) {
 						$tax_args['label'] = $tax['label'];
 					} elseif (empty($tax_args['label'])) {
-						$tax_args['label'] = ($tax_args['hierarchical']) ? 'カテゴリー' : 'タグ';
+						$tax_args['label'] = ($tax_args['hierarchical']) ? 'Loại' : 'Nhãn';
 					}
 
 					$tax_args['labels'] = array(
 						'name'          => $tax_args['label'],
 						'singular_name' => $tax_args['label'],
-						'search_items'  => $tax_args['label'] . 'を検索',
-						'popular_items' => 'よく使われている' . $tax_args['label'],
-						'all_items'     => 'すべての' . $tax_args['label'],
-						'parent_item'   => '親の' . $tax_args['label'],
-						'edit_item'     => $tax_args['label'] . 'の編集',
-						'update_item'   => '更新',
-						'add_new_item'  => '新規' . $tax_args['label'] . 'を追加',
-						'new_item_name' => '新しい' . $tax_args['label'],
+						'search_items'  => $tax_args['label'] . 'Tìm kiếm',
+						'popular_items' => 'Thường được sử dụng ' . $tax_args['label'],
+						'all_items'     => 'Tất cả ' . $tax_args['label'],
+						'parent_item'   => 'Danh mục cha ' . $tax_args['label'],
+						'edit_item'     => $tax_args['label'] . 'chỉnh sửa',
+						'update_item'   => 'Thêm mới',
+						'add_new_item'  => 'Thêm mới ' . $tax_args['label'],
+						'new_item_name' => 'Mới' . $tax_args['label'],
 					);
-
 					register_taxonomy($tax['taxonomy'], $data["post_type"], $tax_args);
 				}
 			}

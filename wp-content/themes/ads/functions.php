@@ -15,8 +15,8 @@ define('ADS_THEME', get_template_directory_uri());
 
 /* 2. File default
 ------------------------------------------------------------------------------- */
-/* ----- Commont ----- */
-include_once(ADS_FUNCTIONS . '/common.php');
+/* ----- Query ----- */
+include_once(ADS_FUNCTIONS . '/query.php');
 
 /* ----- Admin ----- */
 if (is_admin()) {
@@ -29,11 +29,11 @@ include_once(ADS_FUNCTIONS . '/custom_post_type.php');
 /* ----- Shortcode ----- */
 include_once(ADS_FUNCTIONS . '/shortcodes.php');
 
-/* ----- Loop ----- */
-include_once(ADS_FUNCTIONS . '/loop.php');
-
 /* ----- Media ----- */
 include_once(ADS_FUNCTIONS . '/media.php');
 
 /* ----- Other ----- */
 include_once(ADS_FUNCTIONS . '/other.php');
+
+/* ----- Filter ----- */
+include_once(ADS_FUNCTIONS . '/filter.php');

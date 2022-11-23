@@ -1,10 +1,10 @@
 <?php include ADS_LAYOUT . "about.php" ?>
 <!-- ======= Values Section ======= -->
-<?php include ADS_LAYOUT . "value.php" ?>
+<?php include ADS_LAYOUT . "why.php" ?>
 <!-- ======= Counts ======= -->
-<?php include ADS_LAYOUT . "count.php" ?>
+<?php //include ADS_LAYOUT . "count.php" ?>
 <!-- ======= Features ======= -->
-<?php include ADS_LAYOUT . "features.php" ?>
+<?php include ADS_LAYOUT . "work.php" ?>
 <!-- ======= Price ======= -->
 <?php include ADS_LAYOUT . "price.php" ?>
 <!-- ======= Interface store ======= -->
