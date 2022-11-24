@@ -27,7 +27,7 @@
                 <li><a href="#">Thực phẩm</a></li>
             </ul>
         </li>
-        <li><a class="nav-link scrollto" href="<?php echo site_url('/blogs') ?>" title="Blogs">Blogs</a></li>
+        <li><a class="nav-link scrollto" href="<?php echo site_url('/infomation') ?>" title="Kiến thức">Kiến thức</a></li>
         <li><a class="nav-link scrollto" href="<?php echo site_url('/lien-he') ?>" title="Liên hệ">Liên hệ</a></li>
         <li><a class="getstarted scrollto" href="#" title="Tư vấn báo giá">Tư vấn báo giá</a></li>
     </ul>

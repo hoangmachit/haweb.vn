@@ -12,6 +12,7 @@
 :root {
   scroll-behavior: smooth;
   --primary-color: #d42027;
+  --primary-color-black: #000;
   --primary-color-green: #13855c;
 }
 
@@ -581,7 +582,7 @@ section {
   line-height: 24px;
 }
 
-.about .btn-read-more {
+.btn-read-more {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
@@ -591,20 +592,20 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
-.about .btn-read-more span {
+.btn-read-more span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
-.about .btn-read-more i {
+.btn-read-more i {
   margin-left: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.about .btn-read-more:hover i {
+.btn-read-more:hover i {
   transform: translateX(5px);
 }
 
