@@ -24,7 +24,10 @@ if (CUSTOM_POST_USE) {
 				'label'     => 'Advertisement',
 				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
 				'taxonomies' => array(
-					array('taxonomy' => 'advertisement_tax', 'label' => 'Categories')
+					array(
+						'taxonomy'  => 'advertisement_tax',
+						'label'     => 'Categories'
+					)
 				),
 			),
 
@@ -33,7 +36,14 @@ if (CUSTOM_POST_USE) {
 				'label'     => 'Infomations',
 				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
 				'taxonomies' => array(
-					array('taxonomy' => 'infomations_tax', 'label' => 'Categories')
+					array(
+						'taxonomy' => 'infomations_tax',
+						'label' => 'Categories',
+						'rewrite'   => array(
+							'slug' => 'infomation',
+							'with_front' => true
+						)
+					)
 				),
 			),
 
@@ -136,7 +146,10 @@ if (CUSTOM_POST_USE) {
 					if (isset($tax['args'])) {
 						$tax_args = array_merge($tax_args, $tax['args']);
 					}
-
+					// Rewrite url slug Taxonomy
+					if (!empty($tax['rewrite'])) {
+						$tax_args['rewrite'] = $tax['rewrite'];
+					}
 					if (!empty($tax['label'])) {
 						$tax_args['label'] = $tax['label'];
 					} elseif (empty($tax_args['label'])) {
