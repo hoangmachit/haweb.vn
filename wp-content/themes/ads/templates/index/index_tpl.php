@@ -1,19 +1,19 @@
-<?php include_once ADS_LAYOUT . "slider.php"; ?>
+<?php include_once __layout . "slider.php"; ?>
 <main id="main">
-    <?php include ADS_LAYOUT . "about.php" ?>
+    <?php include __layout . "about.php" ?>
     <!-- ======= Values Section ======= -->
-    <?php include ADS_LAYOUT . "why.php" ?>
+    <?php include __layout . "why.php" ?>
     <!-- ======= Counts ======= -->
-    <?php //include ADS_LAYOUT . "count.php" 
+    <?php //include __layout . "count.php" 
     ?>
     <!-- ======= Features ======= -->
-    <?php include ADS_LAYOUT . "work.php" ?>
+    <?php include __layout . "work.php" ?>
     <!-- ======= Price ======= -->
-    <?php include ADS_LAYOUT . "price.php" ?>
+    <?php include __layout . "price.php" ?>
     <!-- ======= Interface store ======= -->
-    <?php include ADS_LAYOUT . "interface_store.php" ?>
+    <?php include __layout . "interface_store.php" ?>
     <!-- ======= Blogs ======= -->
-    <?php include ADS_LAYOUT . "blogs.php" ?>
+    <?php include __layout . "blogs.php" ?>
     <!-- ======= F.A.Q  ======= -->
-    <?php include ADS_LAYOUT . "question.php" ?>
+    <?php include __layout . "question.php" ?>
 </main>

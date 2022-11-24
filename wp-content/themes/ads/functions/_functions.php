@@ -1,6 +1,6 @@
 <?php
-if (!function_exists('dd')) {
-    function dd($args)
+if (!function_exists('_dd')) {
+    function _dd($args)
     {
         echo "<pre>";
         var_dump($args);
@@ -8,8 +8,8 @@ if (!function_exists('dd')) {
         echo "<pre>";
     }
 }
-if (!function_exists('ASSETS')) {
-    function ASSETS($string)
+if (!function_exists('_assets')) {
+    function _assets($string)
     {
         return get_template_directory_uri() . $string;
     }
@@ -23,8 +23,8 @@ if (!function_exists('_echo')) {
 }
 
 
-if (!function_exists('resetQuery')) {
-    function resetQuery()
+if (!function_exists('_reset')) {
+    function _reset()
     {
         wp_reset_query();
     }

@@ -1,3 +1,25 @@
+# start custom type
+array(
+    'post_type' => 'infomations',
+    'label'     => 'Infomations',
+    'args'      => array(
+        'supports' => array(
+            'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author', 'page-attributes'
+        )
+    ),
+    'taxonomies' => array(
+        array(
+            'taxonomy' => 'infomations_tax',
+            'label' => 'Categories',
+            'rewrite'   => array(
+                'slug' => 'infomation',
+                'with_front' => true
+            )
+        )
+    ),
+),
+# end custom type
+
 <?php
     $args = array(
         'posts_per_page' => -1,

@@ -22,7 +22,11 @@ if (CUSTOM_POST_USE) {
 			array(
 				'post_type' => 'advertisement',
 				'label'     => 'Advertisement',
-				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author'
+					)
+				),
 				'taxonomies' => array(
 					array(
 						'taxonomy'  => 'advertisement_tax',
@@ -34,7 +38,11 @@ if (CUSTOM_POST_USE) {
 			array(
 				'post_type' => 'infomations',
 				'label'     => 'Infomations',
-				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author', 'page-attributes'
+					)
+				),
 				'taxonomies' => array(
 					array(
 						'taxonomy' => 'infomations_tax',
@@ -50,39 +58,42 @@ if (CUSTOM_POST_USE) {
 			array(
 				'post_type' => 'policy',
 				'label'     => 'Policy',
-				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author',
+					)
+				),
 			),
 
 			array(
 				'post_type' => 'why',
 				'label'     => 'Why choice',
-				'args'      => array('supports' => array('title', 'editor', 'revisions', 'thumbnail', 'excerpt')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author'
+					)
+				),
 			),
 
 			array(
 				'post_type' => 'question',
 				'label'     => 'Questions',
-				'args'      => array('supports' => array('title', 'revisions', 'excerpt')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'revisions', 'excerpt', 'author'
+					)
+				),
 			),
 
 			array(
 				'post_type' => 'working',
 				'label'     => 'Working',
-				'args'      => array('supports' => array('title', 'revisions')),
+				'args'      => array(
+					'supports' => array(
+						'title', 'revisions', 'author'
+					)
+				),
 			),
-
-			////// Example
-
-			//			array(
-			//				'post_type'  => 'example',
-			//				'label'      => 'Example',
-			//				'args'       => array('title', 'editor', 'revisions', 'thumbnail'),
-			//				'taxonomies' => array(
-			//					array( 'taxonomy' => 'example_tax', 'label' => 'Categories' )
-			//				),
-			//			),
-
-			//////
 		);
 
 		foreach ($add_post_type as $data) {

@@ -5,38 +5,39 @@
 
 /* 1. Setup folder
 ------------------------------------------------------------------------------- */
-$templatepath = get_template_directory();
+$template_directory = get_template_directory();
+$theme              = get_template_directory_uri();
 
-define('ADS_FUNCTIONS', $templatepath . '/functions/');
-define('ADS_LIBS', $templatepath . '/libs/');
-define('ADS_TEMPLATE',  $templatepath . '/templates/');
-define('ADS_LAYOUT',  ADS_TEMPLATE . 'layout/');
-define('ADS_THEME', get_template_directory_uri());
+define('__functions', $template_directory . '/functions/');
+define('__libraries', $template_directory . '/libraries/');
+define('__templates',  $template_directory . '/templates/');
+define('__layout',  __templates . 'layout/');
+define('__theme', $theme);
 
 /* 2. File default
 ------------------------------------------------------------------------------- */
 /* ----- _Functions ----- */
-include_once(ADS_FUNCTIONS . '_functions.php');
+include_once(__functions . '_functions.php');
 
 /* ----- Query ----- */
-include_once(ADS_FUNCTIONS . 'query.php');
+include_once(__functions . '_query.php');
 
 /* ----- Admin ----- */
 if (is_admin()) {
-  include_once(ADS_FUNCTIONS . 'admin.php');
+  include_once(__functions . '_admin.php');
 }
 
 /* ----- Custom type ----- */
-include_once(ADS_FUNCTIONS . 'custom_post_type.php');
+include_once(__functions . '_post_type.php');
 
 /* ----- Shortcode ----- */
-include_once(ADS_FUNCTIONS . 'shortcodes.php');
+include_once(__functions . '_shortcodes.php');
 
 /* ----- Media ----- */
-include_once(ADS_FUNCTIONS . 'media.php');
+include_once(__functions . '_media.php');
 
 /* ----- Other ----- */
-include_once(ADS_FUNCTIONS . 'other.php');
+include_once(__functions . '_other.php');
 
 /* ----- Filter ----- */
-include_once(ADS_FUNCTIONS . 'filter.php');
+include_once(__functions . '_admin_filter.php');

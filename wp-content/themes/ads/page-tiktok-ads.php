@@ -1,1 +1,1 @@
-<?php include_once ADS_TEMPLATE . "pages/tiktok-ads.php";
+<?php include_once __templates . "pages/tiktok-ads.php";

@@ -19,7 +19,7 @@ function getPolicy()
             <?php endwhile; ?>
         </ul>
     <?php }
-    resetQuery();
+    _reset();
 }
 // get Why Choice
 function getWhyChoice()
@@ -45,7 +45,7 @@ function getWhyChoice()
             </article>
         <?php endwhile; ?>
     <?php }
-    resetQuery();
+    _reset();
 }
 
 
@@ -79,7 +79,7 @@ function getInfomations()
             </article>
         <?php endwhile; ?>
     <?php }
-    resetQuery();
+    _reset();
 }
 
 
@@ -108,7 +108,7 @@ function getQuestions()
             </div>
         <?php endwhile; ?>
     <?php }
-    resetQuery();
+    _reset();
 }
 
 // get Working
@@ -134,5 +134,5 @@ function getWorking()
             </article>
         <?php endwhile; ?>
     <?php }
-    resetQuery();
+    _reset();
 }

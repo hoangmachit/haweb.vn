@@ -4,6 +4,6 @@
             <!-- <img src="https://nusa-desain.com/demo/sekolah_pay/assets/img/logo.png" alt=""> -->
             <span>Haweb.vn</span>
         </a>
-        <?php include_once ADS_LAYOUT . "nav.php"; ?>
+        <?php include_once __layout . "nav.php"; ?>
     </div>
 </header>

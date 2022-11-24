@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="<?php echo ASSETS('/assets/img/hero-img.png') ?>" class="img-fluid" alt="Thiết kế website chuyên nghiệp Hoàng Anh">
+                    <img src="<?php echo _assets('/assets/img/hero-img.png') ?>" class="img-fluid" alt="Thiết kế website chuyên nghiệp Hoàng Anh">
                 </div>
             </div>
         </div>

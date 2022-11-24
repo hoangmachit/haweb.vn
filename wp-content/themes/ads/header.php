@@ -2,9 +2,9 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    <?php include_once ADS_LAYOUT . "head.php"; ?>
+    <?php include_once __layout . "head.php"; ?>
 </head>
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <?php include_once ADS_LAYOUT . "header.php"; ?>
+    <?php include_once __layout . "header.php"; ?>
