@@ -5,7 +5,7 @@
         </header>
         <div class="row">
             <div class="col-lg-6">
-                <img src="<?php echo _assets('/assets/img/features.png') ?>" class="img-fluid" alt="Chúng tôi thiết kế những gì?">
+                <img src="<?php _echo(_assets('/assets/img/features.png')) ?>" class="img-fluid" alt="Chúng tôi thiết kế những gì?">
             </div>
             <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
                 <div class="row align-self-center gy-4">

@@ -2942,6 +2942,38 @@ body.blog {
 }
 
 /* Blogs */
-#background-blogs {
-  padding-top: 0px;
+#background-blogs{
+  padding: 0px;
+  position: relative;
+  img{
+      width: 100%;
+      display: block;
+  }
+  header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: 38px;
+      text-align: center;
+      margin: 0px;
+      color: #Fff;
+      font-weight: bold;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #background-blogs{
+    header{
+      h1{
+        font-size: 24px;
+      }
+    }
+  }
 }

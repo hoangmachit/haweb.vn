@@ -1,17 +1,5 @@
 <?php
-$categories_args = array(
-    'orderby'       => 'term_id',
-    'order'         => 'ASC',
-    'hide_empty'    => false,
-);
-$infomations_tax = get_terms('infomations_tax', $categories_args);
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-$query = new WP_Query(array(
-    'post_type' => 'infomations',
-    'posts_per_page' => 16,
-    'paged' => $paged
-));
-_reset();
+include_once __DIR__ . "/_query.php";
 ?>
 <link href="<?php echo _assets('/assets/css/page/infomations/style.css') ?>" rel="stylesheet">
 <section id="background-blogs">
@@ -21,79 +9,10 @@ _reset();
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-8">
-                <div class="blogs-content">
-                    <div id="blogs-left-first">
-                        <div class="blogs-box">
-                            <div class="blogs-thumb">
-                                <a href="" title="">
-                                    <figure>
-                                        <img src="https://mikotech.vn/wp-content/uploads/2022/08/106_Mo-hinh-MVC-la-gi.jpg" class="img-fluid" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="blogs-info">
-                                <h3>
-                                    <a href="" title="">
-                                        Mô hình MVC là gì? Những thông tin về MVC mà bạn không thể bỏ lỡ
-                                    </a>
-                                </h3>
-                                <div class="blogs-desc">
-                                    <p>
-                                        Mô hình MVC là mô hình không thể không biết đến trong giới lập trình website. Đây là mô hình được ứng dụng cao trong các dự án website. Vậy mô hình MVC là gì? Những thông tin về MVC mà bạn không thể bỏ lỡ. Hãy cùng bài viết tìm hiểu nhé! Qua bài […]
-                                    </p>
-                                </div>
-                                <div class="text-center text-lg-start">
-                                    <a href="" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                        <span>Đọc thêm</span>
-                                        <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <?php if ($query->have_posts()) : ?>
-                        <?php while ($query->have_posts()) : $query->the_post(); ?>
-                            <div class="blogs-second-group">
-                                <div class="blogs-second-box d-flex">
-                                    <div class="blogs-second-thumb">
-                                        <figure>
-                                            <?php the_post_thumbnail(array(320, 215), array('class' => 'img-fluid')) ?>
-                                        </figure>
-                                    </div>
-                                    <div class="blogs-second-info">
-                                        <h3 title="">
-                                            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                                <?php the_title(); ?>
-                                            </a>
-                                        </h3>
-                                        <div class="blogs-second-desc">
-                                            <?php the_excerpt(); ?>
-                                        </div>
-                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="blogs-read-more"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
-                    <div class="pagination">
-                        <?php
-                        echo paginate_links(array(
-                            'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
-                            'total'        => $query->max_num_pages,
-                            'current'      => max(1, get_query_var('paged')),
-                            'format'       => '?paged=%#%',
-                            'show_all'     => false,
-                            'type'         => 'plain',
-                            'end_size'     => 2,
-                            'mid_size'     => 1,
-                            'prev_next'    => true,
-                            'prev_text'    => sprintf('<i></i> %1$s', __('Newer Posts', 'text-domain')),
-                            'next_text'    => sprintf('%1$s <i></i>', __('Older Posts', 'text-domain')),
-                            'add_args'     => false,
-                            'add_fragment' => '',
-                        ));
-                        ?>
-                    </div>
+                <div class="infomations-detail-page">
+                    <?php
+                    include_once __DIR__ . "/detail.php";
+                    ?>
                 </div>
             </div>
             <div class="col-lg-4">

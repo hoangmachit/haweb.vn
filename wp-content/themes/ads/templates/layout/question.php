@@ -5,7 +5,7 @@
             <p>Tổng hợp 1001 những câu hỏi thường gặp từ khách hàng.</p>
         </header>
         <div id="accordion" class="faq-list">
-           <?php getQuestions(); ?>
+            <?php getQuestions(); ?>
         </div>
     </div>
 </section>
