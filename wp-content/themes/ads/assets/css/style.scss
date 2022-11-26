@@ -192,6 +192,10 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  &.other{
+    position: relative;
+    background: #fff;
+  }
 }
 
 .header.header-scrolled {

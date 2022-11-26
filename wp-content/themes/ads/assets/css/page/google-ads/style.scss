@@ -7,12 +7,6 @@
         height: auto;
     }
 }
-
-.header {
-    background: #fff;
-    position: relative;
-}
-
 .page-overview,
 .page-futures,
 .page-introduce {
@@ -72,7 +66,7 @@
             cursor: pointer;
             outline: none;
             border-radius: 6px;
-            box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
         }
     }
 }
@@ -136,7 +130,7 @@
                     cursor: pointer;
                     outline: none;
                     border-radius: 6px;
-                    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+                    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
                 }
             }
         }
@@ -180,7 +174,7 @@
                 cursor: pointer;
                 outline: none;
                 border-radius: 6px;
-                box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+                box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
             }
         }
     }
@@ -196,7 +190,7 @@
         border: 2px solid #f0f0f4;
         padding: 20px;
         border-radius: 5px;
-        box-shadow: 0px 0px 10px rgb(12 12 12 / 5%);
+        box-shadow: 0px 0px 10px rgba(12,12,12,5%);
 
         .service-thumb {
             -ms-flex: 0 0 49%;
@@ -230,7 +224,7 @@
                 cursor: pointer;
                 outline: none;
                 border-radius: 6px;
-                box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+                box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
                 color: #2A72FF;
                 background: #ffffff;
                 padding-left: 10px;

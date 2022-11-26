@@ -1,5 +1,3 @@
 <?php get_header(); ?>
-<div class="detail">
-    <h1>Taxonomy Post</h1>
-</div>
+<?php include_once __templates . "taxonomy/infomations_tax/index.php"; ?>
 <?php get_footer(); ?>

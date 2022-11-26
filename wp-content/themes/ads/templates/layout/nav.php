@@ -16,7 +16,7 @@ $infomations_nav = get_terms('infomations_tax', $categories_args_nav);
                 <li><a href="<?php _echo(site_url('/tiktok-ads')) ?>" title="Tiktok Ads">TikTok Ads</a></li>
             </ul>
         </li>
-        <li><a class="nav-link scrollto" href="<?php _echo(site_url('/domain')) ?>" title="Domain">Domain</a></li>
+        <li><a class="nav-link scrollto" href="<?php _echo(site_url('/domain')) ?>" title="Domain">Tên miền</a></li>
         <li><a class="nav-link scrollto" href="<?php _echo(site_url('/hosting')) ?>" title="Hosting">Hosting</a></li>
         <li class="dropdown"><a href="#" title="Kho giao diện"><span>Kho giao diện</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

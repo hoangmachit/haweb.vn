@@ -2,43 +2,17 @@
 include_once __DIR__ . "/_query.php";
 ?>
 <link href="<?php _echo(_assets('/assets/css/page/infomations/style.css')) ?>" rel="stylesheet">
-<section id="background-blogs">
-    <img src="<?php _echo(_assets('/assets/img/bg-banner.jpg')) ?>" alt="Banner Blogs">
+<section id="background-blogs" class="mb-5">
+    <header>
+        <h1>Kiến thức website</h1>
+    </header>
+    <img src="<?php _echo(_assets('/assets/img/google-ads-banner.png')) ?>" class="img-fluid" alt="Kiến thức website">
 </section>
 <main id="main">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-8">
                 <div class="blogs-content">
-                    <div id="blogs-left-first">
-                        <div class="blogs-box">
-                            <div class="blogs-thumb">
-                                <a href="" title="">
-                                    <figure>
-                                        <img src="https://mikotech.vn/wp-content/uploads/2022/08/106_Mo-hinh-MVC-la-gi.jpg" class="img-fluid" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="blogs-info">
-                                <h3>
-                                    <a href="" title="">
-                                        Mô hình MVC là gì? Những thông tin về MVC mà bạn không thể bỏ lỡ
-                                    </a>
-                                </h3>
-                                <div class="blogs-desc">
-                                    <p>
-                                        Mô hình MVC là mô hình không thể không biết đến trong giới lập trình website. Đây là mô hình được ứng dụng cao trong các dự án website. Vậy mô hình MVC là gì? Những thông tin về MVC mà bạn không thể bỏ lỡ. Hãy cùng bài viết tìm hiểu nhé! Qua bài […]
-                                    </p>
-                                </div>
-                                <div class="text-center text-lg-start">
-                                    <a href="" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                        <span>Đọc thêm</span>
-                                        <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <?php if ($query->have_posts()) : ?>
                         <?php while ($query->have_posts()) : $query->the_post(); ?>
                             <div class="blogs-second-group">

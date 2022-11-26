@@ -1,0 +1,29 @@
+#page-AboutUs {
+  padding: 0px;
+}
+
+#page-AboutUs img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#about-banner {
+  background: #e1f5fe;
+  padding: 0px 0 0px;
+}
+
+.wrapper_header {
+  position: relative;
+  z-index: 1;
+  padding-top: 130px;
+}
+
+.about-us_thumbs {
+  margin-left: -150px;
+}
+
+.about-us_thumbs figure {
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */

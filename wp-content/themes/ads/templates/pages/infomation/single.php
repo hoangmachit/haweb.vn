@@ -2,8 +2,11 @@
 include_once __DIR__ . "/_query.php";
 ?>
 <link href="<?php echo _assets('/assets/css/page/infomations/style.css') ?>" rel="stylesheet">
-<section id="background-blogs">
-    <img src="<?php echo _assets('/assets/img/bg-banner.jpg') ?>" alt="Banner Blogs">
+<section id="background-blogs" class="mb-5">
+    <header>
+        <h1><?php the_title() ?></h1>
+    </header>
+    <img src="<?php _echo(_assets('/assets/img/google-ads-banner.png')) ?>" class="img-fluid" alt="Kiến thức website">
 </section>
 <main id="main">
     <div class="container" data-aos="fade-up">
