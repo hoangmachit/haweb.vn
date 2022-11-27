@@ -13,14 +13,14 @@
                         </svg>
                     </div>
                     <p class="item__name font-weight-bold text-uppercase name-package">BASIC</p>
-                    <span class="price">
+                    <!-- <span class="price">
                         <del>
                             <span>3.500.000 VNĐ</span>
                         </del>
                         <ins>
                             <span>2.950.000 VNĐ</span>
                         </ins>
-                    </span>
+                    </span> -->
                     <div class="separate"></div>
                     <p class="item__desc font-italic">Dành cho Cá nhân kinh doanh online</p>
                     <div class="price-js-show-more d-none">
@@ -54,11 +54,11 @@
                     </div>
                     <div class="highlights-tag">Nổi bật</div>
                     <p class="item__name font-weight-bold text-uppercase name-package">PRO</p>
-                    <span class="price">
+                    <!-- <span class="price">
                         <ins>
                             <span>4.500.000 VNĐ</span>
                         </ins>
-                    </span>
+                    </span> -->
                     <div class="separate"></div>
                     <p class="item__desc font-italic">Dành cho các Doanh Nghiệp mới</p>
                     <div class="price-js-show-more d-none">
@@ -96,11 +96,11 @@
                         </svg>
                     </div>
                     <p class="item__name font-weight-bold text-uppercase name-package">BUSINESS</p>
-                    <span class="price">
+                    <!-- <span class="price">
                         <ins>
                             <span>&gt; 7.000.000 VNĐ</span>
                         </ins>
-                    </span>
+                    </span> -->
                     <div class="separate"></div>
                     <p class="item__desc font-italic">Dành cho các Doanh Nghiệp vừa và nhỏ <br>
                         <strong> GÓI ĐƯỢC SỬ DỤNG NHIỀU NHẤT</strong>

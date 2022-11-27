@@ -58,9 +58,10 @@ function getInfomations()
         'post_status' => 'publish'
     );
     $query = new WP_Query($args);
+    $count = 1;
     if ($query->have_posts()) { ?>
-        <?php while ($query->have_posts()) : $query->the_post(); ?>
-            <article class="col-lg-4">
+        <?php while ($query->have_posts()) : $query->the_post();  ?>
+            <article class="col-lg-4 <?= ($count > 3) ? "mt-4" : "" ?>">
                 <div class="post-box">
                     <div class="post-img">
                         <figure>
@@ -77,7 +78,7 @@ function getInfomations()
                     <a href="<?php the_permalink() ?>" title="<?php the_title() ?>" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
                 </div>
             </article>
-        <?php endwhile; ?>
+        <?php $count++; endwhile; ?>
     <?php }
     _reset();
 }

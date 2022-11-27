@@ -622,7 +622,7 @@ section {
     cursor: pointer;
   }
 
-  background: rgba($color: #f5f5f5, $alpha: 0.3);
+  background: rgba($color: #f7f7f7, $alpha: 0.8);
 
   .box {
     padding: 30px;
@@ -1577,7 +1577,9 @@ section {
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
-
+.recent-blog-posts{
+  background: #f7f7f7;
+}
 .recent-blog-posts .post-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
@@ -1588,6 +1590,7 @@ section {
   position: relative;
   display: flex;
   flex-direction: column;
+  background: #fff;
 }
 
 .recent-blog-posts .post-box .post-img {
@@ -2672,8 +2675,11 @@ body.blog {
 }
 
 /* --- Price ---- */
+.price{
+  background: #f7f7f7;
+}
 .price-tab__item {
-  background: rgba(249, 249, 249, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 1px 4px 10px rga(212, 2, 39, 0.08);
   box-shadow: 1px 4px 10px rgba(19, 133, 92, 0.1);
   border-radius: 10px;

@@ -13,5 +13,8 @@ include_once __DIR__ . "/_query.php";
     include_once __DIR__ . "/_banner.php";
     include_once __DIR__ . "/_price.php";
     include_once __DIR__ . "/_experts.php";
+    include_once __DIR__ . "/_security.php";
+    include_once __DIR__ . "/_package.php";
+    include_once __DIR__ . "/_question.php";
     ?>
 </section>

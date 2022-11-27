@@ -10,6 +10,10 @@ include_once __DIR__ . "/_query.php";
 </section>
 <section id="page-AboutUs">
     <?php
-    include_once __DIR__ . "/_detail.php";
+    include_once __DIR__ . "/_about.php";
+    include_once __DIR__ . "/_mission.php";
+    include_once __DIR__ . "/_service.php";
+    include_once __DIR__ . "/_why.php";
+    include_once __DIR__ . "/_customer.php";
     ?>
 </section>
