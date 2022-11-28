@@ -1,7 +1,6 @@
 #page-AboutUs {
   padding: 0px;
 }
-
 #page-AboutUs img {
   width: auto;
   max-width: 100%;
@@ -22,8 +21,6 @@
 .about-us_thumbs {
   margin-left: -150px;
 }
-
 .about-us_thumbs figure {
   margin: 0px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

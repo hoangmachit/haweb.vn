@@ -2,6 +2,7 @@
 include_once __DIR__ . "/_query.php";
 ?>
 <link href="<?php _echo(_assets('/assets/css/page/hosting/style.css')) ?>" rel="stylesheet">
+<script src="<?php _echo(_assets('/assets/css/page/hosting/main.js')) ?>"></script>
 <section id="background-blogs">
     <header>
         <h1><?php _echo($page->post_title) ?></h1>
@@ -14,7 +15,6 @@ include_once __DIR__ . "/_query.php";
     include_once __DIR__ . "/_price.php";
     include_once __DIR__ . "/_experts.php";
     include_once __DIR__ . "/_security.php";
-    include_once __DIR__ . "/_package.php";
     include_once __DIR__ . "/_question.php";
     ?>
 </section>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="experts__info">
-                    <div>
+                    <div class="experts__info__items">
                         <h3>
                             Chuyên gia hosting hỗ trợ 24/7/365
                         </h3>
@@ -11,7 +11,7 @@
                             Không còn phải lo rằng liệu bạn có được trợ giúp kịp thời hay không! Chuyên gia được đào tạo từ chính công ty Hostinger sẽ hỗ trợ kỹ thuật gần như toàn bộ thời gian bằng Tiếng ﻿Việt cho bạn (Tiếng Anh 24/7).
                         </p>
                     </div>
-                    <div>
+                    <div class="experts__info__items">
                         <h3>
                             Server host công nghệ hàng đầu
                         </h3>
@@ -21,7 +21,7 @@
                             Tìm hiểu thêm
                         </a>
                     </div>
-                    <div>
+                    <div class="experts__info__items">
                         <h3>
                             Dễ dàng &amp; Miễn phí chuyển hosting
                         </h3>
