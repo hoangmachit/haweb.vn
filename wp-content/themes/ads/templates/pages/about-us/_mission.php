@@ -1,62 +1,73 @@
-<section id="about-banner">
+<section id="about-mission">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 about-us_left">
-                <div class="wrapper_header">
-                    <h1>Hơn 50.000<br>
-                        <span>người kinh doanh và</span>
-                        <span>thương hiệu bậc nhất đang</span>
-                        tin dùng Haravan.
-                    </h1>
-                    <p class="tagline">
-                        Với các giải pháp công nghệ tốt nhất, Haravan là tất cả những gì bạn cần để xây dựng thương hiệu online, thành công trong bán lẻ và marketing đột phá.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-7 col-sm-12 col-xs-12 about-us_right">
-                <div class="about-us_thumbs">
+        <div class="title-heading-about">
+            <h2>Tầm nhìn - Sứ mệnh - Giá trị cốt lõi</h2>
+            <p>Quy trình làm việc của Hoàng Anh Website</p>
+        </div>
+        <div class="row" id="vision">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="thumbs-vision">
+                <div class="img">
                     <figure>
-                        <img src="https://file.hstatic.net/1000001117/file/about-maibanner_a470ff89b9b34462bf2459e11d5ca74c.png" alt="">
+                        <img src="https://via.placeholder.com/636x400" alt="">
                     </figure>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section id="about-detail">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Hoàng Anh Ads</h2>
-                <p>
-                    Được thành lập từ tháng 4/2014, đến nay Haravan đã trở thành công ty công nghệ hàng đầu Việt Nam trong lĩnh vực cung cấp các giải pháp bán lẻ Omnichannel, Thương mại điện tử và Engagement Marketing.
-                </p>
+            <div class="col-lg-6 col-md-6 col-sm-12" id="info-vision">
+                <div class="box-info-vision">
+                    <h3>Tầm nhìn</h3>
+                    <ul>
+                        <li>
+                            <p>Phấn đấu là 1 trong 10 doanh nghiệp cung cấp dịch vụ thiết kế Web site, SEO Website hàng đầu với dòng sản phẩm Website cao cấp, chuyên nghiệp, chuẩn bị sẵn sàng để vươn ra nhiều thị phần khác trên toàn cầu.</p>
+                        </li>
+                        <li>
+                            <p>Tiếp tục nghiên cứu, học hỏi để nâng cao chất lượng sản phẩm, dịch vụ, đáp ứng mọi yêu cầu khắt khe của khách hàng trong giai đoạn hội nhập quốc tế.</p>
+                        </li>
+                        <li>
+                            <p>Trở thành top 5 doanh nghiệp tin cậy hàng đầu cung cấp dịch vụ SEO website, Marketing online cho các doanh nghiệp trong và ngoài nước</p>
+                        </li>
+                        <li>
+                            <p>Sử dụng thế mạnh của hệ thống Website, công nghệ xây dựng Website hiện đại và giải pháp Marketing Online bền vững, ECVN phấn đấu trở thành tập đoàn kinh doanh đa ngành, tập trung vào những dòng sản phẩm dành cho doanh nghiệp, trường học, giáo viên và trẻ em (tương lai của Việt Nam)</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 about-us_detail_left ">
-                <div class="about-us_detail_thumb">
-                    <figure class="m-0">
-                        <img src="https://file.hstatic.net/1000001117/file/about-producthrv_22bdf698ac334fe5a281b7e4be6cb6d1.jpg" alt="">
+        <div class="row" id="mission">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="thumbs-mission">
+                <div class="img">
+                    <figure>
+                        <img src="https://via.placeholder.com/636x400" alt="">
                     </figure>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 about-us_detail_right">
-                <div class="about-us_detail_info">
-                    <h2>Hoàng Anh - Nền tảng cho sự tăng trưởng</h2>
-                    <p class="hidden-xs">
-                        Với các giải pháp bán hàng từ Haravan, doanh nghiệp và cá nhân có thể vận hành việc kinh doanh trên mọi kênh bán hàng tại một nơi duy nhất. Từ việc quản lý sản phẩm, khách hàng, đơn hàng, tồn kho, giao nhận, marketing, khuyến mãi,... cho đến những bảng báo cáo doanh thu và phân tích hiệu quả kinh doanh đều được thống kê tự động.
-                    </p>
+            <div class="col-lg-6 col-md-6 col-sm-12" id="info-mission">
+                <div class="box-info-mission">
+                    <h3>Sản phẩm & dịch vụ</h3>
+                    <ul>
+                        <li>
+                            <p>Thiết kế Website: Tạo ra những website đẳng cấp, tinh tế gắn liền với thương hiệu, thành công của khách hàng.</p>
+                        </li>
+                        <li>
+                            <p>SEO Website: Nâng cao chất lượng, hiệu quả kinh doanh cho doanh nghiệp góp phần quảng bá thương hiệu của doanh nghiệp trong nước và quốc tế.</p>
+                        </li>
+                        <li>
+                            <p>Đào tạo: Tạo ra nguồn nhân lực góp phần vào quá trình phát triển kinh tế, văn hóa, xã hội và nền công nghệ thông tin Việt Nam</p>
+                        </li>
+                    </ul>
+                    <h3>Giá trị cốt lõi</h3>
+                    <ul>
+                        <li>
+                            <p>Con người là tài sản vô giá là nhân tố trung tâm phát triển bền vững.</p>
+                        </li>
+                        <li>
+                            <p>Mang lại lợi ích cao nhất cho cổ đông và đối tác</p>
+                        </li>
+                        <li>
+                            <p>Tạo môi trường thuận lợi nhất để nhân viên phát triển về cá nhân cũng như nghề nghiệp đáp ứng yêu cầu thời đại.</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section id="about_progresbar">
-    <div class="container">
-
-        <div class="about-us_titke">
-
         </div>
     </div>
 </section>

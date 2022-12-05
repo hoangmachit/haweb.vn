@@ -17,10 +17,10 @@
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item real_estate">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="May mặc Kofa">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/1.jpg')) ?>" class="img-fluid" alt="May mặc Kofa">
                     <div class="portfolio-info">
-                        <h4>apa coba</h4>
-                        <p>May mặc Kofa</p>
+                        <h4>Spa</h4>
+                        <p>Daebakspa</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="apa coba"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -30,10 +30,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item build">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Phong thủy phát tài">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/2.jpg')) ?>" class="img-fluid" alt="Phong thủy phát tài">
                     <div class="portfolio-info">
-                        <h4>Contoh 6</h4>
-                        <p>Phong thủy phát tài</p>
+                        <h4>Travel</h4>
+                        <p>Travel Hour</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 6"><i class="bi bi-plus"></i></a>
                             <a href="detail_gallery7429.html?id=15" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -43,10 +43,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item build">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Shop co vy">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/3.jpg')) ?>" class="img-fluid" alt="Shop co vy">
                     <div class="portfolio-info">
-                        <h4>Contoh 5</h4>
-                        <p>Shop co vy</p>
+                        <h4>Cosmetic</h4>
+                        <p>Hương Thị</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 5"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -56,10 +56,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item real_estate">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Nhà đất vĩnh lộc">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/4.jpg')) ?>" class="img-fluid" alt="Nhà đất vĩnh lộc">
                     <div class="portfolio-info">
-                        <h4>Contoh 4</h4>
-                        <p>Nhà đất vĩnh lộc</p>
+                        <h4>Sport</h4>
+                        <p>Thịnh Yoga</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 4"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -69,10 +69,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item real_estate">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/5.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
                     <div class="portfolio-info">
-                        <h4>Contoh 3</h4>
-                        <p>Xây dựng nội thất Cộng Hưởng</p>
+                        <h4>Hand Bag</h4>
+                        <p>Hanghieu.com</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -82,10 +82,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item build">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/6.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
                     <div class="portfolio-info">
-                        <h4>Contoh 2</h4>
-                        <p>Trường mầm bảo Anh</p>
+                        <h4>Furniture</h4>
+                        <p>Long Thịnh</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -95,10 +95,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Thời trang Korea">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/7.jpg')) ?>" class="img-fluid" alt="Thời trang Korea">
                     <div class="portfolio-info">
-                        <h4>Contoh 3</h4>
-                        <p>Thời trang Korea</p>
+                        <h4>Furniture</h4>
+                        <p>Kim Loại Sun</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -108,10 +108,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Nội thất Quốc Thiệu">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/8.jpg')) ?>" class="img-fluid" alt="Nội thất Quốc Thiệu">
                     <div class="portfolio-info">
-                        <h4>Contoh 2</h4>
-                        <p>Nội thất Quốc Thiệu</p>
+                        <h4>Building</h4>
+                        <p>Novaland Property</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
@@ -121,10 +121,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="//via.placeholder.com/400x400" class="img-fluid" alt="Cục Cục Store">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/image/9.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
                     <div class="portfolio-info">
-                        <h4>Contoh 2</h4>
-                        <p>Cục Cục Store</p>
+                        <h4>Fashion</h4>
+                        <p>4 Young</p>
                         <div class="portfolio-links">
                             <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>

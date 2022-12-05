@@ -1,7 +1,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width">
-<title><?php wp_title('', true, 'right'); ?><?php if (is_post_type_archive() || is_singular()) : ?> | <?php bloginfo('name'); ?><?php endif; ?><?php if (is_home()) : ?><?php bloginfo('name'); ?><?php endif; ?></title>
+<title><?php wp_title('', true, 'right'); ?><?php if (is_post_type_archive() || is_singular()) : ?> - <?php bloginfo('name'); ?><?php endif; ?><?php if (is_home()) : ?><?php bloginfo('name'); ?><?php endif; ?></title>
 <?php wp_head(); ?>
 <link rel="shortcut icon" href="<?php _echo(_assets('/assets/img/your-logo.png')) ?>" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
