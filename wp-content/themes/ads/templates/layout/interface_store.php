@@ -8,21 +8,21 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">Tất cả</li>
-                    <li data-filter=".real_estate">Bất động sản</li>
+                    <li data-filter=".product">Bán hàng</li>
                     <li data-filter=".build">Xây dựng</li>
                     <li data-filter=".landing_page">Landing page</li>
                 </ul>
             </div>
         </div>
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item real_estate">
+            <div class="col-lg-4 col-md-6 portfolio-item product">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/1.jpg')) ?>" class="img-fluid" alt="May mặc Kofa">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp01.jpg')) ?>" class="img-fluid" alt="May mặc Kofa">
                     <div class="portfolio-info">
-                        <h4>Spa</h4>
-                        <p>Daebakspa</p>
+                        <h4>SP001</h4>
+                        <p>SP001</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="apa coba"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp01.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="apa coba"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>
@@ -30,51 +30,12 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item build">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/2.jpg')) ?>" class="img-fluid" alt="Phong thủy phát tài">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp02.jpg')) ?>" class="img-fluid" alt="Phong thủy phát tài">
                     <div class="portfolio-info">
-                        <h4>Travel</h4>
-                        <p>Travel Hour</p>
+                        <h4>SP002</h4>
+                        <p>SP002</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 6"><i class="bi bi-plus"></i></a>
-                            <a href="detail_gallery7429.html?id=15" title="Lihat Detail"><i class="bi bi-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item build">
-                <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/3.jpg')) ?>" class="img-fluid" alt="Shop co vy">
-                    <div class="portfolio-info">
-                        <h4>Cosmetic</h4>
-                        <p>Hương Thị</p>
-                        <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 5"><i class="bi bi-plus"></i></a>
-                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item real_estate">
-                <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/4.jpg')) ?>" class="img-fluid" alt="Nhà đất vĩnh lộc">
-                    <div class="portfolio-info">
-                        <h4>Sport</h4>
-                        <p>Thịnh Yoga</p>
-                        <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 4"><i class="bi bi-plus"></i></a>
-                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item real_estate">
-                <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/5.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
-                    <div class="portfolio-info">
-                        <h4>Hand Bag</h4>
-                        <p>Hanghieu.com</p>
-                        <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp02.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 6"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>
@@ -82,12 +43,64 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item build">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/6.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp03.jpg')) ?>" class="img-fluid" alt="Shop co vy">
                     <div class="portfolio-info">
-                        <h4>Furniture</h4>
-                        <p>Long Thịnh</p>
+                        <h4>SP003</h4>
+                        <p>SP003</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp03.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 5"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp02.jpg')) ?>" class="img-fluid" alt="Nhà đất vĩnh lộc">
+                    <div class="portfolio-info">
+                        <h4>SP002</h4>
+                        <p>SP002</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp02.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 4"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp03.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP003</h4>
+                        <p>SP003</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp03.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp04.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP004</h4>
+                        <p>SP004</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp04.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp05.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP005</h4>
+                        <p>SP005</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp05.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>
@@ -95,12 +108,25 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/7.jpg')) ?>" class="img-fluid" alt="Thời trang Korea">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp01.jpg')) ?>" class="img-fluid" alt="Thời trang Korea">
                     <div class="portfolio-info">
-                        <h4>Furniture</h4>
-                        <p>Kim Loại Sun</p>
+                        <h4>SP001</h4>
+                        <p>SP001</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp01.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp06.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP006</h4>
+                        <p>SP006</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp06.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>
@@ -108,12 +134,38 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/8.jpg')) ?>" class="img-fluid" alt="Nội thất Quốc Thiệu">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp02.jpg')) ?>" class="img-fluid" alt="Nội thất Quốc Thiệu">
                     <div class="portfolio-info">
-                        <h4>Building</h4>
-                        <p>Novaland Property</p>
+                        <h4>SP002</h4>
+                        <p>SP002</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp02.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp07.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP007</h4>
+                        <p>SP007</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp07.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp08.png')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP008</h4>
+                        <p>SP008</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp08.png')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>
@@ -121,12 +173,233 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item landing_page">
                 <div class="portfolio-wrap">
-                    <img src="<?php _echo(_assets('/assets/img/gallery/image/9.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp03.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
                     <div class="portfolio-info">
-                        <h4>Fashion</h4>
-                        <p>4 Young</p>
+                        <h4>SP003</h4>
+                        <p>SP003</p>
                         <div class="portfolio-links">
-                            <a href="//via.placeholder.com/400x400" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp03.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp09.png')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP009</h4>
+                        <p>SP009</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp09.png')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landing_page">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp04.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
+                    <div class="portfolio-info">
+                        <h4>SP004</h4>
+                        <p>SP004</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp04.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp04.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP004</h4>
+                        <p>SP004</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp04.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landing_page">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp05.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
+                    <div class="portfolio-info">
+                        <h4>SP005</h4>
+                        <p>SP005</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp05.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp10.png')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP010</h4>
+                        <p>SP010</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp10.png')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landing_page">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp06.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
+                    <div class="portfolio-info">
+                        <h4>SP006</h4>
+                        <p>SP006</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp06.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp05.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP005</h4>
+                        <p>SP005</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp05.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landing_page">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/landingpage/sp07.jpg')) ?>" class="img-fluid" alt="Cục Cục Store">
+                    <div class="portfolio-info">
+                        <h4>SP007</h4>
+                        <p>SP007</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/landingpage/sp07.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp11.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP011</h4>
+                        <p>SP011</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp11.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp06.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP006</h4>
+                        <p>SP006</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp06.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp12.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP012</h4>
+                        <p>SP012</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp12.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp07.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP0007</h4>
+                        <p>SP0007</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp07.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp13.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP013</h4>
+                        <p>SP013</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp13.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp08.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP008</h4>
+                        <p>SP008</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp08.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp14.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP014</h4>
+                        <p>SP014</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp114.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item landingpage">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/product/sp08.jpg')) ?>" class="img-fluid" alt="Xây dựng nội thất Cộng Hưởng">
+                    <div class="portfolio-info">
+                        <h4>SP008</h4>
+                        <p>SP008</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/product/sp08.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 3"><i class="bi bi-plus"></i></a>
+                            <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item build">
+                <div class="portfolio-wrap">
+                    <img src="<?php _echo(_assets('/assets/img/gallery/build/sp15.jpg')) ?>" class="img-fluid" alt="Trường mầm bảo Anh">
+                    <div class="portfolio-info">
+                        <h4>SP015</h4>
+                        <p>SP015</p>
+                        <div class="portfolio-links">
+                            <a href="<?php _echo(_assets('/assets/img/gallery/build/sp15.jpg')) ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Contoh 2"><i class="bi bi-plus"></i></a>
                             <a href="" title="Lihat Detail"><i class="bi bi-link"></i></a>
                         </div>
                     </div>

@@ -20,7 +20,7 @@
                 <div class="col-lg-5 col-md-12 footer-info">
                     <a href="home.html" class="logo d-flex align-items-center">
                         <!-- <img src="assets/img/logo.png" alt="Thiết kế website Hoàng Anh Ads"> -->
-                        <span>Thiết kế website Hoàng Anh Ads</span>
+                        <span>Thiết kế website Hoàng Anh Website</span>
                     </a>
                     <div class="footer-info">
                         <div class="items-f">
@@ -31,7 +31,7 @@
                                 </svg>
                             </span>
                             <div class="items-info">
-                                28 Pham Quy Thich, Tan Phu Ward, Tan Phu District, Ho Chi Minh City
+                                Address: 28 Pham Quy Thich, Tan Phu Ward, Tan Phu District, Ho Chi Minh City
                             </div>
                         </div>
                         <div class="items-f">
@@ -42,7 +42,7 @@
                                 </svg>
                             </span>
                             <div class="items-info">
-                                0969 874 264 - 0918 435 214
+                                Hotline: 0969 874 264 - 0918 435 214
                             </div>
                         </div>
                         <div class="items-f">
@@ -52,7 +52,7 @@
                                 </svg>
                             </span>
                             <div class="items-info">
-                                <a href="maito:contact@haweb.vn" target="blank">contact@haweb.vn</a>
+                                <a href="maito:contact@haweb.vn" target="blank">Email: contact@haweb.vn</a>
                             </div>
                         </div>
                         <div class="items-f">
@@ -62,7 +62,7 @@
                                 </svg>
                             </span>
                             <div class="items-info">
-                                <a href="https://haweb.vn">www.haweb.vn</a>
+                                <a href="https://haweb.vn">Website: www.haweb.vn</a>
                             </div>
                         </div>
                     </div>
