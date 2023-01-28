@@ -17,8 +17,7 @@ while (have_posts()) : ?>
             );
             ?>
         </div>
-        <footer class="entry-footer default-max-width">
-            Footer Content
+        <footer class="entry-footer default-max-width d-none">
         </footer>
         <?php if (!is_singular('attachment')) : ?>
             <?php get_template_part('template-parts/post/author-bio'); ?>
@@ -39,8 +38,9 @@ while (have_posts()) : ?>
     }
     the_post_navigation(
         array(
-            'next_text' => '<p class="meta-nav">Next</p><p class="post-title">%title</p>',
-            'prev_text' => '<p class="meta-nav">Prev</p><p class="post-title">%title</p>',
+            'prev_text' => '<p class="post-title">1. %title</p>',
+            'next_text' => '<p class="post-title">2. %title</p>',
+            'screen_reader_text' => __('Bài viết liên quan'),
         )
     );
 endwhile;

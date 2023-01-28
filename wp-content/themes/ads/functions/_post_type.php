@@ -70,7 +70,7 @@ if (CUSTOM_POST_USE) {
 				'label'     => 'Why choice',
 				'args'      => array(
 					'supports' => array(
-						'title', 'editor', 'revisions', 'thumbnail', 'excerpt', 'author'
+						'title', 'revisions', 'thumbnail', 'excerpt', 'author'
 					)
 				),
 			),

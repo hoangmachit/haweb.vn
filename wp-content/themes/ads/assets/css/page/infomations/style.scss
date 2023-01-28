@@ -208,8 +208,8 @@
           font-weight: bold;
           font-size: 1.25rem;
           color: var(--primary-color-green);
-          &:hover{
-              color: var(--primary-color-black);
+          &:hover {
+            color: var(--primary-color-black);
           }
         }
       }
@@ -242,30 +242,87 @@
     }
   }
 }
-.infomations-detail-page{
-  h1,h2,h3,h4,h5,h6{
+.infomations-detail-page {
+  margin-bottom: 2rem;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-weight: bold;
     color: #1cc88a;
     margin-bottom: 15px;
   }
-  h1{
-    font-size: 32px;
+  h1 {
+    font-size: 30px;
   }
-  h2{
-    font-size: 26px;
-  }
-  h3{
+  h2 {
     font-size: 24px;
   }
-  h4{
+  h3 {
     font-size: 22px;
   }
-  .infomations-detail-page img{
+  h4 {
+    font-size: 20px;
+  }
+  img {
     max-width: 100%;
     vertical-align: middle;
     width: auto;
+    margin-bottom: 1rem;
   }
 }
+.navigation {
+  &.post-navigation {
+    margin-top: 20px;
+    background: rgba($color: #ebebeb, $alpha: 1);
+    padding: 15px;
+    border-radius: 4px;
+  }
+  .screen-reader-text {
+    height: auto;
+    overflow: visible;
+    width: auto;
+    clip-path: none;
+    font-weight: bold;
+    color: #13855c;
+    font-size: 1.375rem;
+    position: relative;
+    padding-bottom: 10px;
+    &:before {
+      content: "";
+      height: 3px;
+      width: 50px;
+      background: #1cc88a;
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      border-radius: 3px;
+      z-index: 3;
+    }
+    &::after {
+      content: "";
+      height: 1px;
+      width: 150px;
+      background: #1cc88a;
+      position: absolute;
+      left: 0px;
+      bottom: 1px;
+      border-radius: 3px;
+      z-index: 2;
+    }
+  }
+  .nav-links {
+    p {
+      margin: 0px;
+    }
+    div:last-child {
+      margin-top: 10px;
+    }
+  }
+}
+
 /* Responsive */
 
 @media screen and (max-width: 768px) {
@@ -282,27 +339,32 @@
       }
     }
   }
-  .page-blogs-title.mt-5{
-      margin-top: 2rem !important;
+  .page-blogs-title.mt-5 {
+    margin-top: 2rem !important;
   }
-  .page-blogs-title h2{
-      font-size: 1.25rem;
+  .page-blogs-title h2 {
+    font-size: 1.25rem;
   }
 
-  .infomations-detail-page{
-    h1,h2,h3,h4,h5,h6{
+  .infomations-detail-page {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       line-height: 1.4;
     }
-    h1{
+    h1 {
       font-size: 22px;
     }
-    h2{
+    h2 {
       font-size: 20px;
     }
-    h3{
+    h3 {
       font-size: 19px;
     }
-    h4{
+    h4 {
       font-size: 18px;
     }
   }

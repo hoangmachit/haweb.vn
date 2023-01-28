@@ -5,7 +5,7 @@
                 <div class="content">
                     <h3>Về chúng tôi</h3>
                     <h2>Thiết kế website Hoàng Anh Ads</h2>
-                    <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế website. <b>Hoàng Anh</b> luôn tự hào là đối tác tin cậy của quý khách hàng. Chúng tôi luôn mang tới những sản phẩm tốt nhất, chuẩn SEO GOOGLE nhất, giàu lợi nhuận nhất cho khách hàng.</p>
+                    <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế website. <b>Hoàng Anh</b> luôn tự hào là đối tác tin cậy của quý khách hàng. Chúng tôi luôn mang tới những sản phẩm tốt nhất, chuẩn SEO GOOGLE nhất, giàu lợi nhuận nhất cho khách hàng nhất.</p>
                     <div class="text-center text-lg-start">
                         <a href="about.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Đọc thêm</span>

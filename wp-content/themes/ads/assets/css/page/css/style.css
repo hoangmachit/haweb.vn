@@ -246,94 +246,37 @@
   margin-left: 15px;
 }
 
-.infomations-detail-page {
-  margin-bottom: 2rem;
-}
-
-.infomations-detail-page h1,
-.infomations-detail-page h2,
-.infomations-detail-page h3,
-.infomations-detail-page h4,
-.infomations-detail-page h5,
-.infomations-detail-page h6 {
+.infomations-detail-page h1, .infomations-detail-page h2, .infomations-detail-page h3, .infomations-detail-page h4, .infomations-detail-page h5, .infomations-detail-page h6 {
   font-weight: bold;
   color: #1cc88a;
   margin-bottom: 15px;
 }
 
 .infomations-detail-page h1 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .infomations-detail-page h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .infomations-detail-page h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .infomations-detail-page h4 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
-.infomations-detail-page img {
+.infomations-detail-page .infomations-detail-page img {
   max-width: 100%;
   vertical-align: middle;
   width: auto;
-  margin-bottom: 1rem;
 }
 
 .navigation.post-navigation {
   margin-top: 20px;
-  background: #ebebeb;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-.navigation .screen-reader-text {
-  height: auto;
-  overflow: visible;
-  width: auto;
-  -webkit-clip-path: none;
-          clip-path: none;
-  font-weight: bold;
-  color: #13855c;
-  font-size: 1.375rem;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.navigation .screen-reader-text:before {
-  content: "";
-  height: 3px;
-  width: 50px;
-  background: #1cc88a;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  border-radius: 3px;
-  z-index: 3;
-}
-
-.navigation .screen-reader-text::after {
-  content: "";
-  height: 1px;
-  width: 150px;
-  background: #1cc88a;
-  position: absolute;
-  left: 0px;
-  bottom: 1px;
-  border-radius: 3px;
-  z-index: 2;
-}
-
-.navigation .nav-links p {
-  margin: 0px;
-}
-
-.navigation .nav-links div:last-child {
-  margin-top: 10px;
+  background: #ebebee;
 }
 
 /* Responsive */
@@ -356,12 +299,7 @@
   .page-blogs-title h2 {
     font-size: 1.25rem;
   }
-  .infomations-detail-page h1,
-  .infomations-detail-page h2,
-  .infomations-detail-page h3,
-  .infomations-detail-page h4,
-  .infomations-detail-page h5,
-  .infomations-detail-page h6 {
+  .infomations-detail-page h1, .infomations-detail-page h2, .infomations-detail-page h3, .infomations-detail-page h4, .infomations-detail-page h5, .infomations-detail-page h6 {
     line-height: 1.4;
   }
   .infomations-detail-page h1 {

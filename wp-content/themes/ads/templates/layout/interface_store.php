@@ -2,7 +2,7 @@
     <div class="container" data-aos="fade-up">
         <header class="section-header title-heading">
             <h2>Kho giao diện đa dạng</h2>
-            <p>Tổng hợp 1001 giao diện được thiết kế bởi Haweb.vn chúng tôi gửi tới quý khách hàng.</p>
+            <p>Tổng hợp <b>1001</b> giao diện được thiết kế bởi Haweb.vn chúng tôi gửi tới quý khách hàng.</p>
         </header>
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">

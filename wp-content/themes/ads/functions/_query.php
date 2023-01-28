@@ -32,7 +32,7 @@ function getWhyChoice()
     $query = new WP_Query($args);
     if ($query->have_posts()) { ?>
         <?php while ($query->have_posts()) : $query->the_post(); ?>
-            <article class="col-lg-4 mt-4">
+            <article class="col-lg-4 mt-4 item-why">
                 <div class="box" data-aos="fade-up" data-aos-delay="200">
                     <figure>
                         <?php the_post_thumbnail(array(440, 360), array('class' => 'img-fluid')) ?>
@@ -61,7 +61,7 @@ function getInfomations()
     $count = 1;
     if ($query->have_posts()) { ?>
         <?php while ($query->have_posts()) : $query->the_post();  ?>
-            <article class="col-lg-4 <?= ($count > 3) ? "mt-4" : "" ?>">
+            <article class="col-lg-4 item-blogs <?= ($count > 3) ? "mt-4" : "" ?>">
                 <div class="post-box">
                     <div class="post-img">
                         <figure>
@@ -78,7 +78,8 @@ function getInfomations()
                     <a href="<?php the_permalink() ?>" title="<?php the_title() ?>" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
                 </div>
             </article>
-        <?php $count++; endwhile; ?>
+        <?php $count++;
+        endwhile; ?>
     <?php }
     _reset();
 }
@@ -126,13 +127,13 @@ function getWorking()
         $aos_delay = 0;
         while ($query->have_posts()) : $query->the_post(); ?>
             <?php $aos_delay++; ?>
-            <article class="col-md-6" data-aos="zoom-out" data-aos-delay="<?php _echo($aos_delay) ?>00">
+            <article class="col-md-6 item-working" data-aos="zoom-out" data-aos-delay="<?php _echo($aos_delay) ?>00">
                 <div class="feature-box d-flex align-items-center" title="<?php the_title() ?>">
                     <i class="bi bi-check"></i>
                     <h3><?php the_title() ?></h3>
                 </div>
             </article>
         <?php endwhile; ?>
-    <?php }
+<?php }
     _reset();
 }

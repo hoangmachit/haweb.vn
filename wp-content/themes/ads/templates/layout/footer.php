@@ -6,7 +6,7 @@
                     <h4>Tư vấn nhận báo giá thiết kế website FREE</h4>
                 </div>
                 <div class="col-lg-4 text-center text-lg-start">
-                    <a href="ppdb.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                    <a href="<?php _echo(home_url('/lien-he')) ?>" title="Đăng ký ngay" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                         <span>Đăng ký ngay</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -75,13 +75,13 @@
                 <div class="col-lg-2 col-ms-12 footer-links">
                     <h4>Danh mục</h4>
                     <ul>
-                        <li><a href="">Trang chủ</a></li>
-                        <li><a href="">Về chúng tôi</a></li>
-                        <li><a href="">Google Ads</a></li>
-                        <li><a href="">Tiktok Ads</a></li>
-                        <li><a href="">Kho giao diện</a></li>
-                        <li><a href="">Blogs</a></li>
-                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="<?php _echo(home_url()) ?>">Trang chủ</a></li>
+                        <li><a href="<?php _echo(home_url('/ve-chung-toi')) ?>">Về chúng tôi</a></li>
+                        <li><a href="<?php _echo(home_url('/google-ads')) ?>">Google Ads</a></li>
+                        <li><a href="<?php _echo(home_url('/tiktok-ads')) ?>">Tiktok Ads</a></li>
+                        <li><a href="<?php _echo(home_url('/kho-giao-dien')) ?>">Kho giao diện</a></li>
+                        <li><a href="<?php _echo(home_url('/infomation')) ?>">Blogs</a></li>
+                        <li><a href="<?php _echo(home_url('/lien-he')) ?>">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">

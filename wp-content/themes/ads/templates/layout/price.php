@@ -33,8 +33,8 @@
                             <li class="checked">Bảo hành trọn đời website</li>
                             <li class="checked">Cam kết tốc độ tải trang dưới 3s.</li>
                             <li class="checked">Hỗ trợ nhập 10 đơn vị bài viết / sản phẩm</li>
-                            <li class="close">Tối ưu hỗ trợ SEO Google. Giao diện tương thích trên di động</li>
-                            <li class="close">Tặng: 2 banner</li>
+                            <li class="checked">Tối ưu hỗ trợ SEO Google. Giao diện tương thích trên di động</li>
+                            <li class="checked">Tặng: 2 banner</li>
                             <li class="close">Miễn phí Email doanh nghiệp 5GB (ten@tenmiencongty.com)</li>
                             <li class="close">Tặng kèm 1 năm tên miền .COM trị giá 330.000 VNĐ (đã bao gồm VAT 10%)</li>
                             <li class="close">Tặng Hosting 1,5GB/1 năm trị giá 1.056.000 VNĐ (đã bao gồm VAT 10%)</li>

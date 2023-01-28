@@ -8,7 +8,6 @@ $infomations_nav = get_terms('infomations_tax', $categories_args_nav);
 ?>
 <nav id="navbar" class="navbar">
     <ul>
-        <li><a class="nav-link scrollto active" href="<?php _echo(site_url()) ?>" title="Trang chủ">Trang chủ</a></li>
         <li><a class="nav-link scrollto" href="<?php _echo(site_url('/ve-chung-toi')) ?>" title="Về chúng tôi">Về chúng tôi</a></li>
         <li class="dropdown"><a href="#"><span>Quảng cáo</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -18,10 +17,11 @@ $infomations_nav = get_terms('infomations_tax', $categories_args_nav);
         </li>
         <li><a class="nav-link scrollto" href="<?php _echo(site_url('/domain')) ?>" title="Domain">Tên miền</a></li>
         <li><a class="nav-link scrollto" href="<?php _echo(site_url('/hosting')) ?>" title="Hosting">Hosting</a></li>
+        <li><a class="nav-link scrollto" href="<?php _echo(site_url('/thiet-ke-website')) ?>" title="Hosting">Thiết kế website</a></li>
         <li class="dropdown"><a href="#" title="Kho giao diện"><span>Kho giao diện</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
                 <li><a href="#">Bất động sản</a></li>
-                <li class="dropdown"><a href="#"><span>Giới thiệu</span> <i class="bi bi-chevron-right"></i></a>
+                <li class="dropdown"><a href="#"><span>Nhà đất</span> <i class="bi bi-chevron-right"></i></a>
                     <ul>
                         <li><a href="#">Nhà đất</a></li>
                         <li><a href="#">Nhà phố</a></li>
@@ -36,8 +36,8 @@ $infomations_nav = get_terms('infomations_tax', $categories_args_nav);
             </ul>
         </li>
         <li <?= !empty($infomations_nav) ? 'class="dropdown"' : '' ?>>
-            <a class="nav-link scrollto" href="<?php _echo(site_url('/infomation')) ?>" title="Kiến thức">
-                <span>Kiến thức</span>
+            <a class="nav-link scrollto" href="<?php _echo(site_url('/infomation')) ?>" title="Blogs">
+                <span>Blogs</span>
                 <?php if (!empty($infomations_nav)) : ?>
                     <i class="bi bi-chevron-down"></i>
                 <?php endif; ?>

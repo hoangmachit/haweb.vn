@@ -79,6 +79,7 @@
 
     h2 {
         font-weight: bold;
+        color: var(--primary-color-green);
     }
 
     p {
@@ -177,8 +178,28 @@
 .box-info-vision {
     h3 {
         font-weight: bold;
-        color: #1cc88a;
+        color: var(--primary-color-green);
         font-size: 1.5rem;
+        padding-bottom: 10px;
+        position: relative;
+        &:before,&:after{
+            content: "";
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            background: var(--primary-color-green);
+        }
+        &:before{
+            width: 50px;
+            height: 3px;
+            border-radius: 3px;
+        }
+        &:after{
+            width: 100px;
+            height: 1px;
+            border-radius: 3px;
+            bottom: 1px;
+        }
     }
 
     ul {
@@ -248,7 +269,7 @@
     padding: 10px;
 
     .customer-shadow {
-        box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+        box-shadow: 0px 0 5px rgba(1,41,112,0.08);
         padding: 20px;
         position: relative;
     }
