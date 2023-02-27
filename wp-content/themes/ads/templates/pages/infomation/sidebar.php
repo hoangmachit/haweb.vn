@@ -1,7 +1,3 @@
-<?php
-include_once __DIR__ . "/single_query.php";
-?>
-
 <div class="page-blogs-title">
     <h2>Danh mục</h2>
 </div>

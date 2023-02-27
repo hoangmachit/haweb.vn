@@ -80,7 +80,7 @@ if (CUSTOM_POST_USE) {
 				'label'     => 'Questions',
 				'args'      => array(
 					'supports' => array(
-						'title', 'revisions', 'excerpt', 'author'
+						'title', 'revisions', 'editor', 'author'
 					)
 				),
 			),

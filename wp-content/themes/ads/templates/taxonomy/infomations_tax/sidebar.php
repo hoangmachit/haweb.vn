@@ -1,7 +1,3 @@
-<?php
-include_once __DIR__ . "/single_query.php";
-?>
-
 <div class="page-blogs-title">
     <h2>Danh mục</h2>
 </div>
@@ -18,13 +14,14 @@ include_once __DIR__ . "/single_query.php";
     <h2>Bài viết mới nhất</h2>
 </div>
 <div class="page-blogs-content">
-    <?php
-    if ($post_new->have_posts()) : ?>
-        <?php $number = 0;
+
+    <?php if ($post_new->have_posts()) : ?>
+        <?php
+        $number = 0;
         while ($post_new->have_posts()) : $post_new->the_post();
             $number++;
         ?>
-            <?php if (1 === $number) : ?>
+            <?php if ($number == 1) : ?>
                 <div class="blogs-items-view first">
                     <div class="blogs-items-thumb">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -66,12 +63,13 @@ include_once __DIR__ . "/single_query.php";
                                 <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                             </svg>
                             <span class="blogs-items-time">
-                                <?php the_time('d/m/Y h:i:A'); ?>
+                                <?php the_time(); ?>
                             </span>
                         </p>
                     </div>
                 </div>
             <?php endif; ?>
+
         <?php endwhile;
         unset($number);
         ?>
@@ -103,15 +101,15 @@ include_once __DIR__ . "/single_query.php";
                 <?php if (1 === $number) : ?>
                     <div class="blogs-items-view blogs-items-small first">
                         <div class="blogs-items-thumb">
-                            <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                                 <figure>
-                                    <?php the_post_thumbnail(array(176, 106), array('class' => 'img-fluid')) ?>
+                                    <?php the_post_thumbnail(array(170, 102), array('class' => 'img-fluid')) ?>
                                 </figure>
                             </a>
                         </div>
                         <div class="blogs-items-info">
                             <h4>
-                                <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+                                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                                     <?php the_title(); ?>
                                 </a>
                             </h4>
@@ -122,7 +120,7 @@ include_once __DIR__ . "/single_query.php";
                                         <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                     </svg>
                                     <span class="blogs-items-time">
-                                        <?php the_time('d/m/Y - h:i:A'); ?>
+                                        <?php the_time('d/m/Y h:i:A'); ?>
                                     </span>
                                 </p>
                             </div>
@@ -142,13 +140,15 @@ include_once __DIR__ . "/single_query.php";
                                     <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                 </svg>
                                 <span class="blogs-items-time">
-                                    <?php the_time('d/m/Y - h:i:A'); ?>
+                                    <?php the_time(); ?>
                                 </span>
                             </p>
                         </div>
                     </div>
-                <?php endif; ?>
-            <?php endwhile; ?>
+                <?php endif ?>
+            <?php endwhile;
+            unset($number);
+            ?>
             <div class="read-more-category">
                 <a href="<?php _echo(get_term_link($term)) ?>" title="<?php _echo($term->name); ?>" class="d-inline-flex align-items-center justify-content-center align-self-center">
                     <span>Đọc thêm</span>

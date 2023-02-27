@@ -36,8 +36,8 @@ $infomations_nav = get_terms('infomations_tax', $categories_args_nav);
             </ul>
         </li>
         <li <?= !empty($infomations_nav) ? 'class="dropdown"' : '' ?>>
-            <a class="nav-link scrollto" href="<?php _echo(site_url('/infomation')) ?>" title="Blogs">
-                <span>Blogs</span>
+            <a class="nav-link scrollto" href="<?php _echo(site_url('/infomation')) ?>" title="Kiến thức">
+                <span>Kiến thức</span>
                 <?php if (!empty($infomations_nav)) : ?>
                     <i class="bi bi-chevron-down"></i>
                 <?php endif; ?>

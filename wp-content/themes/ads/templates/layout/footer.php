@@ -19,7 +19,6 @@
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-info">
                     <a href="home.html" class="logo d-flex align-items-center">
-                        <!-- <img src="assets/img/logo.png" alt="Thiết kế website Hoàng Anh Ads"> -->
                         <span>Thiết kế website Hoàng Anh Website</span>
                     </a>
                     <div class="footer-info">
@@ -31,7 +30,7 @@
                                 </svg>
                             </span>
                             <div class="items-info">
-                                Address: 28 Pham Quy Thich, Tan Phu Ward, Tan Phu District, Ho Chi Minh City
+                                Address: 229/17 Tan Huong, Tan Phu Ward, Tan Phu District, Ho Chi Minh City
                             </div>
                         </div>
                         <div class="items-f">

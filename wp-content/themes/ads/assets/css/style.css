@@ -1367,7 +1367,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+.portfolio-details-slider
+.swiper-pagination
+.swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1375,7 +1378,10 @@ section {
   border: 1px solid #1cc88a;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+.portfolio-details-slider
+.swiper-pagination
+.swiper-pagination-bullet-active {
   background-color: #1cc88a;
 }
 
@@ -3141,7 +3147,7 @@ body.blog {
   font-size: 38px;
   text-align: center;
   margin: 0px;
-  color: #Fff;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -3149,5 +3155,10 @@ body.blog {
   #background-blogs header h1 {
     font-size: 24px;
   }
+}
+
+.accordion-body li {
+  margin-bottom: 10px;
+  line-height: 1.7;
 }
 /*# sourceMappingURL=style.css.map */

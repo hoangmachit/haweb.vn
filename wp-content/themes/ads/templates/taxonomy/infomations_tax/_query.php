@@ -23,3 +23,12 @@ $the_post = new WP_Query(array(
     ),
 ));
 _reset();
+// get new post infomations
+$post_new = new WP_Query(array(
+    'post_type' => 'infomations',
+    'posts_per_page' => 8,
+    'orderby' => 'ID',
+    'order' => 'DESC'
+));
+_reset();
+

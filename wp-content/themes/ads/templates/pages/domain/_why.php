@@ -47,7 +47,7 @@
                         </div>
                         <div class="domain-items__box__info">
                             <h3>Miễn phí tên miền phụ</h3>
-                            <p>Hazo Media tạo tên miền phụ miễn phí, giúp bạn tổ chức nội dung website tốt hơn.</p>
+                            <p>Hoàng Anh tạo tên miền phụ miễn phí, giúp bạn tổ chức nội dung website tốt hơn.</p>
                         </div>
                     </div>
                 </div>

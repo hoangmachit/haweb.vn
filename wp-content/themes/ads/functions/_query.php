@@ -104,7 +104,7 @@ function getQuestions()
                 </h5>
                 <div id="collapse_<?php the_ID() ?>" class="accordion-collapse collapse">
                     <div class="accordion-body text-sm opacity-8">
-                        <?php the_excerpt(); ?>
+                        <?php the_content(); ?>
                     </div>
                 </div>
             </div>
