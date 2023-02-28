@@ -9,7 +9,7 @@
                 <div class="col-lg-2 col-md-2 col-sm-6 items-procedure">
                     <div class="box-procedure">
                         <div class="procedure-thumbs">
-                            <span class="color_<?=$i ?>">0<?= $i ?></span>
+                            <span class="color_<?= $i ?>">0<?= $i ?></span>
                         </div>
                         <div class="procedure-info">
                             <p>Tư vấn và lấy ý tưởng

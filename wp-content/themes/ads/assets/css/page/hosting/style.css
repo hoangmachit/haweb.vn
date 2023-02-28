@@ -129,7 +129,7 @@
     flex-direction: column-reverse;
   }
   .experts__info__items,
-.security_info {
+  .security_info {
     text-align: center;
   }
   .hosting-content-left {
